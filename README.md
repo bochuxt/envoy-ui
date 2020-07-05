@@ -44,6 +44,7 @@ environment variables:
  * `ENVOY_UI_PORT`: Envoy proxy port
  * `ENVOY_UI_LISTEN_PORT`: Port to listen on
 
+ENVOY_UI_HOST=localhost ENVOY_UI_PORT=8001 ENVOY_UI_LISTEN_PORT=8888 docker run -it -p 8888:8888 gonitro/envoy-ui
 Contributing
 ------------
 
